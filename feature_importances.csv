@@ -1,12 +1,12 @@
-1,Feature Importances
- education,0.0020034731833188436
- self_employed,0.0024309607999167624
- no_of_dependents,0.007817679164149145
- bank_asset_value,0.015053351824100794
- commercial_assets_value,0.015863588059832238
- residential_assets_value,0.0167826348916061
- luxury_assets_value,0.01717029555286379
- income_annum,0.01925086721078427
- loan_amount,0.02922552196059581
- loan_term,0.06380439360435389
- cibil_score,0.8105972337484784
+Importance,Feature
+0.81, cibil_score
+0.06, loan_term
+0.03, loan_amount
+0.02, income_annum
+0.02, luxury_assets_value
+0.02, residential_assets_value
+0.02, commercial_assets_value
+0.02, bank_asset_value
+0.01, no_of_dependents
+0.0, self_employed
+0.0, education
