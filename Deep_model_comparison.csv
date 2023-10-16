@@ -1,67 +1,67 @@
 Model,Summary,Loss,Accuracy
-nn,"Model: ""sequential_1""
+nn,"Model: ""sequential""
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
 =================================================================
- dense_3 (Dense)             (None, 26)                364       
+ dense (Dense)               (None, 24)                312       
                                                                  
- dropout_2 (Dropout)         (None, 26)                0         
+ dropout (Dropout)           (None, 24)                0         
                                                                  
- dense_4 (Dense)             (None, 13)                351       
+ dense_1 (Dense)             (None, 12)                300       
                                                                  
- dropout_3 (Dropout)         (None, 13)                0         
+ dropout_1 (Dropout)         (None, 12)                0         
                                                                  
- dense_5 (Dense)             (None, 1)                 14        
+ dense_2 (Dense)             (None, 1)                 13        
                                                                  
 =================================================================
-Total params: 729 (2.85 KB)
-Trainable params: 729 (2.85 KB)
+Total params: 625 (2.44 KB)
+Trainable params: 625 (2.44 KB)
 Non-trainable params: 0 (0.00 Byte)
 _________________________________________________________________
 ",0.1478002965450287,0.9700374603271484
-optimized_nn,"Model: ""sequential_2""
+optimized_nn,"Model: ""sequential_1""
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
 =================================================================
- dense_6 (Dense)             (None, 39)                546       
+ dense_3 (Dense)             (None, 36)                468       
                                                                  
- dropout_4 (Dropout)         (None, 39)                0         
+ dropout_2 (Dropout)         (None, 36)                0         
                                                                  
- dense_7 (Dense)             (None, 26)                1040      
+ dense_4 (Dense)             (None, 24)                888       
                                                                  
- dropout_5 (Dropout)         (None, 26)                0         
+ dropout_3 (Dropout)         (None, 24)                0         
                                                                  
- dense_8 (Dense)             (None, 13)                351       
+ dense_5 (Dense)             (None, 12)                300       
                                                                  
- dense_9 (Dense)             (None, 1)                 14        
+ dense_6 (Dense)             (None, 1)                 13        
                                                                  
 =================================================================
-Total params: 1951 (7.62 KB)
-Trainable params: 1951 (7.62 KB)
+Total params: 1669 (6.52 KB)
+Trainable params: 1669 (6.52 KB)
 Non-trainable params: 0 (0.00 Byte)
 _________________________________________________________________
 ",1.0808980464935303,0.6385768055915833
-advanced_nn,"Model: ""sequential_4""
+advanced_nn,"Model: ""sequential_2""
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
 =================================================================
- dense_15 (Dense)            (None, 39)                546       
+ dense_7 (Dense)             (None, 36)                468       
                                                                  
- leaky_re_lu_2 (LeakyReLU)   (None, 39)                0         
+ leaky_re_lu (LeakyReLU)     (None, 36)                0         
                                                                  
- dense_16 (Dense)            (None, 26)                1040      
+ dense_8 (Dense)             (None, 24)                888       
                                                                  
- leaky_re_lu_3 (LeakyReLU)   (None, 26)                0         
+ leaky_re_lu_1 (LeakyReLU)   (None, 24)                0         
                                                                  
- dense_17 (Dense)            (None, 13)                351       
+ dense_9 (Dense)             (None, 12)                300       
                                                                  
- dense_18 (Dense)            (None, 6)                 84        
+ dense_10 (Dense)            (None, 6)                 78        
                                                                  
- dense_19 (Dense)            (None, 1)                 7         
+ dense_11 (Dense)            (None, 1)                 7         
                                                                  
 =================================================================
-Total params: 2028 (7.92 KB)
-Trainable params: 2028 (7.92 KB)
+Total params: 1741 (6.80 KB)
+Trainable params: 1741 (6.80 KB)
 Non-trainable params: 0 (0.00 Byte)
 _________________________________________________________________
 ",0.11039558053016663,0.9691011309623718
